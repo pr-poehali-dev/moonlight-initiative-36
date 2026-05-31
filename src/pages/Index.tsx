@@ -263,7 +263,7 @@ export default function Index() {
                 {
                   icon: MailIcon,
                   label: "Почта",
-                  value: "info@findad.ru",
+                  value: "findad@fundd.ru",
                 },
                 {
                   icon: PhoneIcon,

@@ -16,11 +16,15 @@ export function AboutQuote() {
 
           <div className="space-y-4 md:space-y-6">
             <p className="text-base md:text-xl lg:text-2xl xl:text-3xl text-white/90 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-open-sans-custom leading-relaxed">
-              FindAd — центр маркетинговых решений, который помогает бизнесу расти осознанно. Мы работаем на стыке аналитики, стратегии и цифровых технологий, превращая данные в конкретные результаты для каждого клиента.
+              FindAd — небольшая команда специалистов, которая помогает бизнесу расти осознанно. Нас немного, но каждый проект мы ведём лично — без потока клиентов и формальных отчётов ради отчётов.
             </p>
             <p className="text-base md:text-xl lg:text-2xl xl:text-3xl text-white/90 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-open-sans-custom leading-relaxed">
-              Неважно, стартап вы или зрелая компания — мы глубоко погружаемся в специфику вашего рынка, выстраиваем индивидуальную стратегию и сопровождаем на каждом этапе достижения стратегических целей.
+              Работаем на стыке аналитики, стратегии и цифровых технологий. Неважно, стартап вы или устоявшийся бизнес — глубоко погружаемся в вашу задачу и доводим до результата.
             </p>
+            <div className="pt-4 border-t border-white/20">
+              <p className="text-sm md:text-base text-white/60 font-open-sans-custom">Основатель и CEO</p>
+              <p className="text-lg md:text-xl text-white/90 font-open-sans-custom font-semibold [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">Арутюнян Арутюн</p>
+            </div>
           </div>
         </div>
       </div>
