@@ -91,7 +91,7 @@ export function BentoPricing() {
         </div>
         <div className="flex items-center gap-3 p-3">
           <Badge variant="secondary" className="bg-white/10 text-white border-white/20 font-open-sans-custom text-xs">
-            ПРЕМИУМ
+            КОМПЛЕКС
           </Badge>
           <Badge
             variant="outline"
@@ -101,23 +101,23 @@ export function BentoPricing() {
           </Badge>
           <div className="ml-auto">
             <Button size="sm" className="bg-white text-black hover:bg-gray-100 font-open-sans-custom text-xs">
-              Подписаться
+              Обсудить
             </Button>
           </div>
         </div>
         <div className="flex flex-col p-3 lg:flex-row">
           <div className="pb-2 lg:w-[30%]">
             <span className="font-mono text-3xl font-semibold tracking-tight text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)]">
-              2 000 ₽
+              от 80 000 ₽
             </span>
             <span className="text-gray-300 text-xs font-open-sans-custom">/мес</span>
           </div>
           <ul className="text-gray-300 grid gap-2 text-xs lg:w-[70%] font-open-sans-custom">
             {[
-              "2 000 ₽ кредитов включено ежемесячно",
-              "Докупайте кредиты сверх месячного лимита",
-              "5x увеличенный лимит вложений",
-              "Импорт дизайнов из популярных инструментов",
+              "Полное маркетинговое сопровождение бизнеса",
+              "Стратегия, аналитика, контент и реклама",
+              "Персональный менеджер и еженедельные отчёты",
+              "Оптимизация воронки продаж и CRM-интеграция",
             ].map((f, i) => (
               <li key={i} className="flex items-center gap-2">
                 <Check className="w-[1.05rem] h-[1.05rem] text-white flex-shrink-0" strokeWidth={3} />
@@ -130,46 +130,49 @@ export function BentoPricing() {
 
       <PricingCard
         titleBadge="СТАРТ"
-        priceLabel="0 ₽"
+        priceLabel="от 20 000 ₽"
+        priceSuffix="/проект"
         features={[
-          "500 ₽ кредитов включено ежемесячно",
-          "Деплой приложений в облако",
-          "Визуальное редактирование",
-          "Синхронизация с Git",
+          "Аудит текущего маркетинга",
+          "Разработка стратегии продвижения",
+          "Настройка 1-2 рекламных каналов",
+          "Отчёт с рекомендациями",
         ]}
         className="lg:col-span-3"
         cta="Начать"
       />
 
       <PricingCard
-        titleBadge="КОМАНДА"
-        priceLabel="3 000 ₽"
-        priceSuffix="/чел/мес"
+        titleBadge="БРЕНД"
+        priceLabel="от 40 000 ₽"
+        priceSuffix="/мес"
         features={[
-          "3 000 ₽ кредитов на участника ежемесячно",
-          "Единый биллинг и управление командой",
-          "Общие чаты и совместная работа",
+          "Управление репутацией и узнаваемостью",
+          "Контент-маркетинг и SMM",
+          "Таргетированная и контекстная реклама",
         ]}
         className="lg:col-span-4"
+        cta="Подключить"
       />
 
       <PricingCard
-        titleBadge="БИЗНЕС"
-        priceLabel="10 000 ₽"
-        priceSuffix="/чел/мес"
-        features={["3 000 ₽ кредитов на участника ежемесячно", "Отключение обучения по умолчанию", "Полный доступ к API"]}
+        titleBadge="ПРОДАЖИ"
+        priceLabel="от 60 000 ₽"
+        priceSuffix="/мес"
+        features={["Оптимизация воронки и процессов продаж", "Лидогенерация и работа с аудиторией", "A/B-тестирование и аналитика конверсий"]}
         className="lg:col-span-4"
+        cta="Подключить"
       />
 
       <PricingCard
-        titleBadge="КОРПОРАЦИЯ"
+        titleBadge="КОРПОРАТИВНЫЙ"
         priceLabel="По запросу"
         priceSuffix=""
         features={[
-          "Отключение обучения по умолчанию",
-          "SAML SSO",
-          "Приоритетный доступ",
-          "Персональная поддержка",
+          "Индивидуальная стратегия под цели компании",
+          "Выделенная команда специалистов",
+          "Интеграция с внутренними системами",
+          "Приоритетная поддержка 24/7",
         ]}
         className="lg:col-span-8"
         cta="Связаться"
