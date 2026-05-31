@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react"
+import { MailIcon, SendIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useEffect, useRef } from "react"
 
@@ -266,15 +266,9 @@ export default function Index() {
                   value: "findad@fundd.ru",
                 },
                 {
-                  icon: PhoneIcon,
-                  label: "Телефон",
-                  value: "+7 (495) 000-00-00",
-                },
-                {
-                  icon: MapPinIcon,
-                  label: "Адрес",
-                  value: "Москва, Россия",
-                  className: "col-span-2",
+                  icon: SendIcon,
+                  label: "Telegram",
+                  value: "@FindAdSupp",
                 },
               ]}
             >
